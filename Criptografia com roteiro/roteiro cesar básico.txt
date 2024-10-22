@@ -1,0 +1,36 @@
+#str textodeentrada (verificar necessidade de tornar tudo maiúsculo ou minúsculo)
+#criar str alfabeto (várias possibilidades)
+
+#chave int (valor dentro de 1 até o tamanho do alfabeto - 1)
+#enquanto a chave digitada estiver incorreta (fora do intervalo) 
+	#solicita chave novamente
+
+
+#int tipo de coversão 1-crip e 2-decrip
+
+#str textoconvertido = vazio
+
+#laço para percorrer o texto digitado
+	#verifica se existe o caracter em questão no alfabeto
+		#aqui existe o caractere
+		#encontra o indice (posição) da letra no alfabeto
+
+		#se 1 é para criptografar
+			#então soma-se o valor da chave ao indice
+
+		#se 2 é para decriptografar
+			#então subtrai-se o valor da chave ao indice
+
+		#se novo indice é maior ou igual ao tamanho do alfabeto rotacionar
+			#reduzo o tamanho do alfabeto no indice voltando ao início do alfa
+
+		#se novo indice é menor que 0 rotacionar
+			#aumento o tamanho do alfabeto no indice indo ao final do alfa
+
+		#adiciono o caractere da posição indice já ajustada ao novo texto
+
+	#se não existir copia o mesmo caracter para novotexto
+
+#imprime novo texto (criptografado ou decriptografado)
+
+
